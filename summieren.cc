@@ -7,6 +7,6 @@ int main()
   int zahl1, zahl2;
   while(!fin.eof()){
     fin >> zahl1 >> zahl2; 
-    std::cout << zahl1 << ", " << zahl2 << std::endl;
+    std::cout << zahl1 + zahl2 << std::endl;
   }
 }
